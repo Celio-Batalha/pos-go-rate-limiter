@@ -1,0 +1,9 @@
+GET http://localhost:8080
+Headers:
+API_KEY: my-test-token
+
+###
+
+GET http://localhost:8080
+Headers:
+API_KEY:
