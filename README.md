@@ -67,16 +67,17 @@ Este projeto implementa um limitador de taxa em Go para controlar o tráfego de 
    ```
    docker-compose up -d
    ```
+4. voce pode fazer o teste usando um postman ou extesion do vscode api.http
 
-4. Build the application:
-   ```
-   go build -o server ./cmd/server
-   ```
+GET http://localhost:8080
+Headers:
+API_KEY: my-test-token
+```
 
-5. Run the application:
-   ```
-   ./server
-   ```
+GET http://localhost:8080
+Headers:
+API_KEY:
+```
 
 ## Usage
 - Para testar o limitador de taxa, envie solicitações ao serviço web usando uma ferramenta como `curl' ou Postman.
