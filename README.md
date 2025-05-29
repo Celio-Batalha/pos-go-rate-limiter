@@ -73,9 +73,8 @@ Este projeto implementa um limitador de taxa em Go para controlar o tráfego de 
 GET http://localhost:8080
 Headers:
 API_KEY: my-test-token
-
 ```
-
+```
 GET http://localhost:8080
 Headers:
 API_KEY:
