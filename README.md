@@ -69,9 +69,11 @@ Este projeto implementa um limitador de taxa em Go para controlar o tráfego de 
    ```
 4. voce pode fazer o teste usando um postman ou extesion do vscode api.http
 
+```
 GET http://localhost:8080
 Headers:
 API_KEY: my-test-token
+
 ```
 
 GET http://localhost:8080
